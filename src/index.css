@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    margin: 20px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: center;
+}
+input{
+    background-color: silver;
+    border: none;
+    width: 100%;
+    height: 100%;
+    outline: none;
+}
+.find{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background-color: silver;
+    border-radius: 3px;
+    width: 100%;
+    height: 30px;
+}
+.find>img{
+    padding-left: 10px;
+}
+.play>img{
+    padding: 10px;
+    width: 100%;
+}
+.sort{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    background-color: silver;
+    /* padding: 30px; */
+    height: 30px;
+    width: 20%;
+}
+.list{
+    margin-top : 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.iner-list{
+    display: flex;
+    gap: 30px;
+    margin-top: .8rem;
+}
+.iner-list>p{
+    background-color: slategray;
+    padding: 10px;
+    border-radius: 10px;
+}
+.conatiner{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.img{
+    display: flex;
+    gap: 20px;
+}
+.detil{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
